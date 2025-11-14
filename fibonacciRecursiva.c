@@ -16,4 +16,11 @@ int main() {
         printf("Porfavor, debe ingresar un número entero y mayor que 0.");
         return 0;
     }
+    printf ("Serie de Fibonacci (%d términos: \n");
+
+    for (int i = 1; i <= numero; i++) {
+        printf("%lld\n", fibonacci(i));
+    }
+    printf ("\n");
+    return 0;
 }
