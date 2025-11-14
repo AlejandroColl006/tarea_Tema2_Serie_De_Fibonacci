@@ -11,4 +11,9 @@ int main() {
 
     printf("Ingrese un número entero para el número de términos de la serie Fibonacci: ");
     scanf("%d", &numero);
+
+    if (numero <=0) {
+        printf("Porfavor, debe ingresar un número entero y mayor que 0.");
+        return 0;
+    }
 }
